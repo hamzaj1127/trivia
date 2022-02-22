@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <br>
+  <br>
+  <br>
+  <h1> Hamza's Trivia Quiz</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <form name="myForm">
+    <b>When is Valentine's Day? (2/14, 2/15, 3/21, 9/18?):</b><br>
+    <input type=TEXT value="" name="day">
+    <input type=BUTTON value="Verify" name="myButton" onClick='verifyDay(this.form)' id="verify1">
+    <br>
+    <br>
+    <br>
+    <br>
+    <form name="myForm">
+      <b>What Kind Of language is HTML? (Mark Up , Spreadsheet , Programming , or Scripting ?):</b><br>
+      <input type=TEXT id="hyper" value="" name="test">
+      <input type=BUTTON value="Verify" name="myButton" onClick='verifyHTML(this.form)' id="verify2">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <form name="myForm">
+        <b>How many letters are in NASA? (1-4?):</b><br>
+        <input type=TEXT id="hyper" value="" name="space">
+        <input type=BUTTON value="Verify" name="myButton" onClick='verifyNASA(this.form)' id="verify3">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <form name="myForm">
+          <b>What element do plants typically give off that is required for human function? (Oxygen, Carbon Dioxide, H2O, Dihydrogen Monoxide):</b><br>
+          <input type=TEXT id="hyper" value="" name="plants">
+          <input type=BUTTON value="Verify" name="myButton" onClick='verifyPlants(this.form)' id="verify4">
+
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+          <button onclick="returnScore()">View Results</button>
+          <script src="trivia.js"></script>
+</body>
+
+</html>
